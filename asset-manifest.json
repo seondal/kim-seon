@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/kim-seon/static/css/main.d13fa9d9.chunk.css",
+    "main.js": "/kim-seon/static/js/main.48c01be5.chunk.js",
+    "main.js.map": "/kim-seon/static/js/main.48c01be5.chunk.js.map",
+    "runtime-main.js": "/kim-seon/static/js/runtime-main.fdd2cb32.js",
+    "runtime-main.js.map": "/kim-seon/static/js/runtime-main.fdd2cb32.js.map",
+    "static/js/2.ca84fcbe.chunk.js": "/kim-seon/static/js/2.ca84fcbe.chunk.js",
+    "static/js/2.ca84fcbe.chunk.js.map": "/kim-seon/static/js/2.ca84fcbe.chunk.js.map",
+    "index.html": "/kim-seon/index.html",
+    "static/css/main.d13fa9d9.chunk.css.map": "/kim-seon/static/css/main.d13fa9d9.chunk.css.map",
+    "static/js/2.ca84fcbe.chunk.js.LICENSE.txt": "/kim-seon/static/js/2.ca84fcbe.chunk.js.LICENSE.txt",
+    "static/media/github_black.44eee0c4.png": "/kim-seon/static/media/github_black.44eee0c4.png",
+    "static/media/github_white.8fdede82.png": "/kim-seon/static/media/github_white.8fdede82.png",
+    "static/media/instagram-black.edb90ecc.png": "/kim-seon/static/media/instagram-black.edb90ecc.png",
+    "static/media/instagram-white.a657188e.png": "/kim-seon/static/media/instagram-white.a657188e.png",
+    "static/media/notion_black.5bb5796c.svg": "/kim-seon/static/media/notion_black.5bb5796c.svg",
+    "static/media/tistory_black.5b3831c4.png": "/kim-seon/static/media/tistory_black.5b3831c4.png",
+    "static/media/tistory_white.19f4ed2a.png": "/kim-seon/static/media/tistory_white.19f4ed2a.png",
+    "static/media/velog_black.383168dc.png": "/kim-seon/static/media/velog_black.383168dc.png",
+    "static/media/velog_white.c416704f.png": "/kim-seon/static/media/velog_white.c416704f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdd2cb32.js",
+    "static/js/2.ca84fcbe.chunk.js",
+    "static/css/main.d13fa9d9.chunk.css",
+    "static/js/main.48c01be5.chunk.js"
+  ]
+}
