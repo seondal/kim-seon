@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kim-seon/static/css/main.d13fa9d9.chunk.css",
-    "main.js": "/kim-seon/static/js/main.48c01be5.chunk.js",
-    "main.js.map": "/kim-seon/static/js/main.48c01be5.chunk.js.map",
+    "main.js": "/kim-seon/static/js/main.4d3925ef.chunk.js",
+    "main.js.map": "/kim-seon/static/js/main.4d3925ef.chunk.js.map",
     "runtime-main.js": "/kim-seon/static/js/runtime-main.fdd2cb32.js",
     "runtime-main.js.map": "/kim-seon/static/js/runtime-main.fdd2cb32.js.map",
     "static/js/2.ca84fcbe.chunk.js": "/kim-seon/static/js/2.ca84fcbe.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.fdd2cb32.js",
     "static/js/2.ca84fcbe.chunk.js",
     "static/css/main.d13fa9d9.chunk.css",
-    "static/js/main.48c01be5.chunk.js"
+    "static/js/main.4d3925ef.chunk.js"
   ]
 }
