@@ -145,7 +145,7 @@ function App() {
         <div class="github"></div> &nbsp; GitHub &nbsp; | &nbsp; 프로젝트
       </Card>
 
-      <Card href="https://www.notion.so/Seon-Dal-606f5a019c9341979432856556e2b821">
+      <Card href="https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=fc4e5ae6e85a44b1988817215a63a854">
         <div class="notion"></div> &nbsp; Project &nbsp; | &nbsp; 개발기록
       </Card>
 
