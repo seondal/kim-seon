@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding-top: 40%;
+  padding-top: 50%;
   color: var(--font);
 
   .smaller {
@@ -51,7 +51,7 @@ const Card = styled.a`
   img {
     box-shadow: rgba(23, 25, 29, 0.3) 0 2px 20px;
     width: 80%;
-    border-radius: 20%;
+    border-radius: 50%;
     margin-bottom: 3px;
 
     :hover {
@@ -63,34 +63,30 @@ const Card = styled.a`
 const App = () => {
   return (
     <Wrapper>
-      <div className="smaller">
-        <Card>
-          <img className="profile" src={profile}></img>
-          <h3>Seondal</h3>
-        </Card>
-      </div>
+      <Card>
+        <img className="profile" src={profile}></img>
+        <h3>Seondal</h3>
+      </Card>
+
       <div className="smaller">
         <Card href="https://velog.io/@seondal">
           <img src={velog}></img>
-          Velog
         </Card>
+
         <Card href="https://whkakrkr.tistory.com">
           <img src={tistory}></img>
-          Tistory
         </Card>
       </div>
+
       <div className="smaller">
         <Card href="https://github.com/seondal">
           <img src={github}></img>
-          Github
         </Card>
         <Card href="https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=fc4e5ae6e85a44b1988817215a63a854">
           <img src={notion}></img>
-          Project
         </Card>
         <Card href="https://www.instagram.com/dev_seondal/">
           <img src={insta}></img>
-          Instagram
         </Card>
       </div>
 
