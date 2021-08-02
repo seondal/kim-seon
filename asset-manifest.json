@@ -1,29 +1,25 @@
 {
   "files": {
-    "main.css": "/kimseon/static/css/main.d13fa9d9.chunk.css",
-    "main.js": "/kimseon/static/js/main.4d3925ef.chunk.js",
-    "main.js.map": "/kimseon/static/js/main.4d3925ef.chunk.js.map",
+    "main.css": "/kimseon/static/css/main.8d95fc4a.chunk.css",
+    "main.js": "/kimseon/static/js/main.10817877.chunk.js",
+    "main.js.map": "/kimseon/static/js/main.10817877.chunk.js.map",
     "runtime-main.js": "/kimseon/static/js/runtime-main.875fd92c.js",
     "runtime-main.js.map": "/kimseon/static/js/runtime-main.875fd92c.js.map",
-    "static/js/2.cd53c0f0.chunk.js": "/kimseon/static/js/2.cd53c0f0.chunk.js",
-    "static/js/2.cd53c0f0.chunk.js.map": "/kimseon/static/js/2.cd53c0f0.chunk.js.map",
+    "static/js/2.40c05fe0.chunk.js": "/kimseon/static/js/2.40c05fe0.chunk.js",
+    "static/js/2.40c05fe0.chunk.js.map": "/kimseon/static/js/2.40c05fe0.chunk.js.map",
     "index.html": "/kimseon/index.html",
-    "static/css/main.d13fa9d9.chunk.css.map": "/kimseon/static/css/main.d13fa9d9.chunk.css.map",
-    "static/js/2.cd53c0f0.chunk.js.LICENSE.txt": "/kimseon/static/js/2.cd53c0f0.chunk.js.LICENSE.txt",
-    "static/media/github_black.44eee0c4.png": "/kimseon/static/media/github_black.44eee0c4.png",
-    "static/media/github_white.8fdede82.png": "/kimseon/static/media/github_white.8fdede82.png",
-    "static/media/instagram-black.edb90ecc.png": "/kimseon/static/media/instagram-black.edb90ecc.png",
-    "static/media/instagram-white.a657188e.png": "/kimseon/static/media/instagram-white.a657188e.png",
-    "static/media/notion_black.5bb5796c.svg": "/kimseon/static/media/notion_black.5bb5796c.svg",
-    "static/media/tistory_black.5b3831c4.png": "/kimseon/static/media/tistory_black.5b3831c4.png",
-    "static/media/tistory_white.19f4ed2a.png": "/kimseon/static/media/tistory_white.19f4ed2a.png",
-    "static/media/velog_black.383168dc.png": "/kimseon/static/media/velog_black.383168dc.png",
-    "static/media/velog_white.c416704f.png": "/kimseon/static/media/velog_white.c416704f.png"
+    "static/css/main.8d95fc4a.chunk.css.map": "/kimseon/static/css/main.8d95fc4a.chunk.css.map",
+    "static/js/2.40c05fe0.chunk.js.LICENSE.txt": "/kimseon/static/js/2.40c05fe0.chunk.js.LICENSE.txt",
+    "static/media/github.ac7a92ef.PNG": "/kimseon/static/media/github.ac7a92ef.PNG",
+    "static/media/instagram.2e1e447a.PNG": "/kimseon/static/media/instagram.2e1e447a.PNG",
+    "static/media/notion.5eb814ef.PNG": "/kimseon/static/media/notion.5eb814ef.PNG",
+    "static/media/tistory.3c5d7de6.PNG": "/kimseon/static/media/tistory.3c5d7de6.PNG",
+    "static/media/velog.c746dd2d.PNG": "/kimseon/static/media/velog.c746dd2d.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.875fd92c.js",
-    "static/js/2.cd53c0f0.chunk.js",
-    "static/css/main.d13fa9d9.chunk.css",
-    "static/js/main.4d3925ef.chunk.js"
+    "static/js/2.40c05fe0.chunk.js",
+    "static/css/main.8d95fc4a.chunk.css",
+    "static/js/main.10817877.chunk.js"
   ]
 }
