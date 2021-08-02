@@ -1,159 +1,107 @@
 import "./App.css";
 import styled from "styled-components";
-import profile from "./assets/profile/시무룩닭.jpg";
-import winsta from "./assets/instagram-white.png";
-import binsta from "./assets/instagram-black.png";
-import wgithub from "./assets/github_white.png";
-import bgithub from "./assets/github_black.png";
-import bt from "./assets/tistory_black.png";
-import wt from "./assets/tistory_white.png";
-import bnotion from "./assets/notion_black.svg";
-import wnotion from "./assets/notion_white.png";
-import bv from "./assets/velog_black.png";
-import wv from "./assets/velog_white.png";
-
-//const body=document.querySelector("body"); //call body tags
-//const photoNum=3; //num of photo;
-// var card;
-// var ranNum;
-// function callRan(){
-// ranNum=Math.floor(Math.random()*3); //call number 1 to 3
-// return ranNum
-// }
-// function callPho(){
-// ranNum=callRan();
-// card="#5aa897";
-// }
-// function init(){
-// callPho();
-// }
+import github from "./assets_v2/github.PNG";
+import notion from "./assets_v2/notion.PNG";
+import insta from "./assets_v2/instagram.PNG";
+import velog from "./assets_v2/velog.PNG";
+import tistory from "./assets_v2/tistory.PNG";
+import profile from "./assets_v2/시무룩닭.jpg";
 
 const Wrapper = styled.div`
-  position: relative;
   display: flex;
   flex-direction: column;
-  justify-items: center;
   align-items: center;
-  font: var(--basicfont);
-`;
+  gap: 40px;
+  padding-top: 40%;
+  color: var(--font);
 
-const Profile = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0px;
-  margin-top: 100px;
-  img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    background: url(${profile});
-    background-size: 100%;
+  .smaller {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+  }
+
+  .solved {
+    width: 280px;
+    :hover {
+      box-shadow: white 0 2px 20px;
+    }
   }
 `;
 
 const Card = styled.a`
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: var(--card);
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  width: 100%;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 20%;
+
+  font-style: italic;
   text-decoration: none;
-  color: var(--basicfont);
-  :hover {
-    background-color: var(--point);
-    color: var(--font);
-    text-decoration: none;
+  color: var(--font);
+
+  .profile {
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: white 0 2px 20px;
   }
-  div {
-    width: 20px;
-    height: 20px;
-    background-size: 100%;
-  }
-  .insta {
-    background: url(${binsta});
-    background-size: 100%;
-  }
-  :hover {
-    .insta {
-      background: url(${winsta});
-      background-size: 100%;
-    }
-  }
-  .github {
-    background: url(${bgithub});
-    background-size: 100%;
-  }
-  :hover {
-    .github {
-      background: url(${wgithub});
-      background-size: 100%;
-    }
-  }
-  .t {
-    background: url(${bt});
-    background-size: 100%;
-  }
-  :hover {
-    .t {
-      background: url(${wt});
-      background-size: 100%;
-    }
-  }
-  .notion {
-    background: url(${bnotion});
-    background-size: 100%;
-  }
-  :hover {
-    .notion {
-      background: url(${wnotion});
-      background-size: 100%;
-    }
-  }
-  .v {
-    background: url(${bv});
-    background-size: 100%;
-  }
-  :hover {
-    .v {
-      background: url(${wv});
-      background-size: 100%;
+
+  img {
+    box-shadow: rgba(23, 25, 29, 0.3) 0 2px 20px;
+    width: 80%;
+    border-radius: 20%;
+    margin-bottom: 3px;
+
+    :hover {
+      box-shadow: white 0 2px 20px;
     }
   }
 `;
 
-function App() {
-  //init();
+const App = () => {
   return (
     <Wrapper>
-      <Profile>
-        <img src={profile}></img>
-        <h3 style={{ color: "var(--basicfont)" }}>SeonDal</h3>
-      </Profile>
+      <div className="smaller">
+        <Card>
+          <img className="profile" src={profile}></img>
+          <h3>Seondal</h3>
+        </Card>
+      </div>
+      <div className="smaller">
+        <Card href="https://velog.io/@seondal">
+          <img src={velog}></img>
+          Velog
+        </Card>
+        <Card href="https://whkakrkr.tistory.com">
+          <img src={tistory}></img>
+          Tistory
+        </Card>
+      </div>
+      <div className="smaller">
+        <Card href="https://github.com/seondal">
+          <img src={github}></img>
+          Github
+        </Card>
+        <Card href="https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=fc4e5ae6e85a44b1988817215a63a854">
+          <img src={notion}></img>
+          Project
+        </Card>
+        <Card href="https://www.instagram.com/dev_seondal/">
+          <img src={insta}></img>
+          Instagram
+        </Card>
+      </div>
 
-      <Card href="https://velog.io/@seondal">
-        <div class="v"></div> &nbsp; Velog &nbsp; | &nbsp; 코딩일기
-      </Card>
-
-      <Card href="https://whkakrkr.tistory.com">
-        <div class="t"></div> &nbsp; Tistory &nbsp; | &nbsp; 공부기록
-      </Card>
-
-      <Card href="https://github.com/seondal">
-        <div class="github"></div> &nbsp; GitHub &nbsp; | &nbsp; 프로젝트
-      </Card>
-
-      <Card href="https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=fc4e5ae6e85a44b1988817215a63a854">
-        <div class="notion"></div> &nbsp; Project &nbsp; | &nbsp; 개발기록
-      </Card>
-
-      {/* <Card href="https://www.instagram.com/dev_seondal/">
-        <div class="insta"></div> &nbsp; @dev_seondal
-      </Card> */}
+      <a href="https://solved.ac/whkakrkr">
+        <img
+          className="solved"
+          src="http://mazassumnida.wtf/api/v2/generate_badge?boj=whkakrkr"
+        />
+      </a>
     </Wrapper>
   );
-}
+};
 
 export default App;
