@@ -50,7 +50,7 @@ const Card = styled.a`
 
   img {
     box-shadow: rgba(23, 25, 29, 0.3) 0 2px 20px;
-    width: 70%;
+    width: 69%;
     border-radius: 20%;
     margin-bottom: 3px;
 
