@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding-top: 50%;
+  padding-top: 30%;
   color: var(--font);
 
   .smaller {
@@ -50,7 +50,7 @@ const Card = styled.a`
 
   img {
     box-shadow: rgba(23, 25, 29, 0.3) 0 2px 20px;
-    width: 80%;
+    width: 70%;
     border-radius: 20%;
     margin-bottom: 3px;
 
