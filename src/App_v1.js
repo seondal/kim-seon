@@ -1,16 +1,16 @@
 import "./App.css";
 import styled from "styled-components";
-import profile from "./assets/profile/시무룩닭.jpg";
-import winsta from "./assets/instagram-white.png";
-import binsta from "./assets/instagram-black.png";
-import wgithub from "./assets/github_white.png";
-import bgithub from "./assets/github_black.png";
-import bt from "./assets/tistory_black.png";
-import wt from "./assets/tistory_white.png";
-import bnotion from "./assets/notion_black.svg";
-import wnotion from "./assets/notion_white.png";
-import bv from "./assets/velog_black.png";
-import wv from "./assets/velog_white.png";
+import profile from "./assets_v1/profile/시무룩닭.jpg";
+import winsta from "./assets_v1/instagram-white.png";
+import binsta from "./assets_v1/instagram-black.png";
+import wgithub from "./assets_v1/github_white.png";
+import bgithub from "./assets_v1/github_black.png";
+import bt from "./assets_v1/tistory_black.png";
+import wt from "./assets_v1/tistory_white.png";
+import bnotion from "./assets_v1/notion_black.svg";
+import wnotion from "./assets_v1/notion_white.png";
+import bv from "./assets_v1/velog_black.png";
+import wv from "./assets_v1/velog_white.png";
 
 //const body=document.querySelector("body"); //call body tags
 //const photoNum=3; //num of photo;

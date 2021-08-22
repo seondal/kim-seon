@@ -1,95 +1,140 @@
 import "./App.css";
 import styled from "styled-components";
-import github from "./assets_v2/github.PNG";
-import notion from "./assets_v2/notion.PNG";
-import insta from "./assets_v2/instagram.PNG";
-import velog from "./assets_v2/velog.PNG";
-import tistory from "./assets_v2/tistory.PNG";
-import profile from "./assets_v2/시무룩닭.jpg";
+import notion from "./assets_v3/notion.png";
+import insta from "./assets_v3/instagram.png";
+import velog from "./assets_v3/velog.png";
+import tistory from "./assets_v3/tistory.png";
+import profile from "./assets_v3/시무룩닭.jpg";
+import gmail from "./assets_v3/gmail.png";
 
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
   padding-top: 30%;
   color: var(--font);
 
   .smaller {
     display: flex;
     flex-direction: row;
-    gap: 10%;
   }
 
   .solved {
     width: 280px;
+    margin: 10px;
+  }
+
+  .velog {
     :hover {
-      box-shadow: white 0 2px 20px;
+      background-color: #1ec592;
+    }
+  }
+  .tistory {
+    :hover {
+      background-color: #e5511e;
+    }
+  }
+  .notion {
+    :hover {
+      background-color: black;
+    }
+  }
+  .insta {
+    :hover {
+      background-color: #e4405f;
+    }
+  }
+  .gmail {
+    :hover {
+      background-color: #d14836;
     }
   }
 `;
 
-const Card = styled.a`
+const Profile = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 90px;
   height: 90px;
-  border-radius: 20%;
-
-  font-style: italic;
-  text-decoration: none;
-  color: var(--font);
-
-  .profile {
+  margin-bottom: 70px;
+  color: black;
+  img {
     width: 100%;
     border-radius: 50%;
-    box-shadow: white 0 2px 20px;
+  }
+`;
+
+const Card = styled.a`
+  margin: 10px;
+  display: flex;
+  gap: 5%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--card);
+  width: 280px;
+  height: 55px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+
+  .icon {
+    width: 30px;
   }
 
-  img {
-    box-shadow: rgba(23, 25, 29, 0.3) 0 2px 20px;
-    width: 69%;
-    border-radius: 20%;
-    margin-bottom: 3px;
+  .name {
+    font-size: 20px;
+  }
 
-    :hover {
-      box-shadow: white 0 2px 20px;
-    }
+  .explain {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
   }
 `;
 
 const App = () => {
   return (
     <Wrapper>
-      <Card>
-        <img className="profile" src={profile}></img>
+      <Profile>
+        <img src={profile}></img>
         <h3>Seondal</h3>
+      </Profile>
+      <Card className="velog" href="https://velog.io/@seondal">
+        <img className="icon" src={velog}></img>
+        <div className="name">Velog</div>
+        <div className="explain">공부기록 개발블로그</div>
       </Card>
-      <div className="smaller">
-        <Card href="https://velog.io/@seondal">
-          <img src={velog}></img>
-          Velog
-        </Card>
-        <Card href="https://whkakrkr.tistory.com">
-          <img src={tistory}></img>
-          Tistory
-        </Card>
-      </div>
+      <Card className="tistory" href="https://whkakrkr.tistory.com">
+        <img className="icon" src={tistory}></img>
+        <div className="name">Tistory</div>
+        <div className="explain">알고리즘 문풀기록장</div>
+      </Card>
 
       <div className="smaller">
-        <Card href="https://github.com/seondal">
-          <img src={github}></img>
-          GitHub
+        <Card
+          className="notion"
+          style={{ width: "130px", gap: "5%" }}
+          href="https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=fc4e5ae6e85a44b1988817215a63a854"
+        >
+          <img className="icon" src={notion}></img>
+          <div className="name"> Projects</div>
         </Card>
-        <Card href="https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=fc4e5ae6e85a44b1988817215a63a854">
-          <img src={notion}></img>
-          Projects
+
+        <Card
+          className="insta"
+          style={{ width: "55px" }}
+          href="https://www.instagram.com/dev_seondal/"
+        >
+          <img className="icon" src={insta}></img>
         </Card>
-        <Card href="https://www.instagram.com/dev_seondal/">
-          <img src={insta}></img>
-          Instagram
+        <Card
+          className="gmail"
+          style={{ width: "55px" }}
+          onClick={() => alert("sseondal@gmail.com")}
+        >
+          <img className="icon" src={gmail}></img>
         </Card>
       </div>
 
