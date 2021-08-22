@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/kimseon/static/css/main.8d95fc4a.chunk.css",
-    "main.js": "/kimseon/static/js/main.20d5ff7f.chunk.js",
-    "main.js.map": "/kimseon/static/js/main.20d5ff7f.chunk.js.map",
+    "main.css": "/kimseon/static/css/main.78297c67.chunk.css",
+    "main.js": "/kimseon/static/js/main.72227832.chunk.js",
+    "main.js.map": "/kimseon/static/js/main.72227832.chunk.js.map",
     "runtime-main.js": "/kimseon/static/js/runtime-main.875fd92c.js",
     "runtime-main.js.map": "/kimseon/static/js/runtime-main.875fd92c.js.map",
-    "static/js/2.40c05fe0.chunk.js": "/kimseon/static/js/2.40c05fe0.chunk.js",
-    "static/js/2.40c05fe0.chunk.js.map": "/kimseon/static/js/2.40c05fe0.chunk.js.map",
+    "static/js/2.cd53c0f0.chunk.js": "/kimseon/static/js/2.cd53c0f0.chunk.js",
+    "static/js/2.cd53c0f0.chunk.js.map": "/kimseon/static/js/2.cd53c0f0.chunk.js.map",
     "index.html": "/kimseon/index.html",
-    "static/css/main.8d95fc4a.chunk.css.map": "/kimseon/static/css/main.8d95fc4a.chunk.css.map",
-    "static/js/2.40c05fe0.chunk.js.LICENSE.txt": "/kimseon/static/js/2.40c05fe0.chunk.js.LICENSE.txt",
-    "static/media/github.ac7a92ef.PNG": "/kimseon/static/media/github.ac7a92ef.PNG",
-    "static/media/instagram.2e1e447a.PNG": "/kimseon/static/media/instagram.2e1e447a.PNG",
-    "static/media/notion.5eb814ef.PNG": "/kimseon/static/media/notion.5eb814ef.PNG",
-    "static/media/tistory.3c5d7de6.PNG": "/kimseon/static/media/tistory.3c5d7de6.PNG",
-    "static/media/velog.c746dd2d.PNG": "/kimseon/static/media/velog.c746dd2d.PNG"
+    "static/css/main.78297c67.chunk.css.map": "/kimseon/static/css/main.78297c67.chunk.css.map",
+    "static/js/2.cd53c0f0.chunk.js.LICENSE.txt": "/kimseon/static/js/2.cd53c0f0.chunk.js.LICENSE.txt",
+    "static/media/gmail.d7d3271b.png": "/kimseon/static/media/gmail.d7d3271b.png",
+    "static/media/instagram.a657188e.png": "/kimseon/static/media/instagram.a657188e.png",
+    "static/media/tistory.68a9d957.png": "/kimseon/static/media/tistory.68a9d957.png",
+    "static/media/velog.c416704f.png": "/kimseon/static/media/velog.c416704f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.875fd92c.js",
-    "static/js/2.40c05fe0.chunk.js",
-    "static/css/main.8d95fc4a.chunk.css",
-    "static/js/main.20d5ff7f.chunk.js"
+    "static/js/2.cd53c0f0.chunk.js",
+    "static/css/main.78297c67.chunk.css",
+    "static/js/main.72227832.chunk.js"
   ]
 }
