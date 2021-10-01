@@ -1,6 +1,6 @@
 # kim-seon
 
-**🔽 Deployed**   
+**🔽 Link**   
 https://seondal.github.io/kimseon
 
 **🔽 ReadMe**   
