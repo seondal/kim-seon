@@ -1,4 +1,4 @@
-import "./App.css";
+import "./v2.css";
 import styled from "styled-components";
 import github from "./assets_v2/github.PNG";
 import notion from "./assets_v2/notion.PNG";
@@ -60,7 +60,7 @@ const Card = styled.a`
   }
 `;
 
-const App = () => {
+const v2 = () => {
   return (
     <Wrapper>
       <Card>
@@ -103,4 +103,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default v2;

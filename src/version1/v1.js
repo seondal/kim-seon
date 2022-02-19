@@ -1,4 +1,4 @@
-import "./App.css";
+import "./v1.css";
 import styled from "styled-components";
 import profile from "./assets_v1/profile/시무룩닭.jpg";
 import winsta from "./assets_v1/instagram-white.png";
@@ -124,7 +124,7 @@ const Card = styled.a`
   }
 `;
 
-function App() {
+function v1() {
   //init();
   return (
     <Wrapper>
@@ -156,4 +156,4 @@ function App() {
   );
 }
 
-export default App;
+export default v1;
