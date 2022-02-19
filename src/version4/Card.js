@@ -15,7 +15,6 @@ const Wrapper = styled.div`
   height: 55px;
   border-radius: 10px;
   color: white;
-  text-decoration: none;
 
   .icon {
     width: 30px;
@@ -33,10 +32,17 @@ const Wrapper = styled.div`
 `;
 
 const Card = ({ contents }) => {
-  const { link, icon, name, detail } = contents;
+  const { link, icon, name, detail, color } = contents;
+  const [isHover, setIsHover] = useState(0);
+
   return (
-    <a href={link} style={{ textDecorationLine: "none" }}>
-      <Wrapper>
+    <a
+      href={link}
+      style={{ textDecorationLine: "none" }}
+      onMouseOver={() => setIsHover(1)}
+      onMouseOut={() => setIsHover(0)}
+    >
+      <Wrapper style={isHover ? { backgroundColor: color } : {}}>
         <img className="icon" src={icon}></img>
         <div className="name">{name}</div>
         <div className="explain">{detail}</div>
