@@ -4,15 +4,17 @@ import "./v4.css";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  margin: 10px;
+  width: 270px;
+  height: 55px;
   display: flex;
-  gap: 5%;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  gap: 20px;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--card);
-  width: 280px;
-  height: 55px;
   border-radius: 10px;
   color: white;
 

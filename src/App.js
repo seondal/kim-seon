@@ -1,4 +1,4 @@
-import Version from "./version4/v4";
+import Version from "./components/v4";
 
 const App = () => {
   return <Version />;

@@ -1,8 +1,6 @@
 import velogIcon from "../version3/assets_v3/velog.png";
 import tistoryIcon from "../version3/assets_v3/tistory.png";
 import notionIcon from "../version3/assets_v3/notion.png";
-import instaIcon from "../version3/assets_v3/instagram.png";
-import gmailIcon from "../version3/assets_v3/gmail.png";
 
 const CardContents = [
   {
@@ -25,20 +23,6 @@ const CardContents = [
     name: "Dalchive",
     detail: "공부기록장",
     color: "black",
-  },
-  {
-    link: "https://www.instagram.com/dev_seondal/",
-    icon: instaIcon,
-    name: "Instagram",
-    detail: "개발일기 공스타",
-    color: "#e4405f",
-  },
-  {
-    link: "mailto:sseondal@gmail.com",
-    icon: gmailIcon,
-    name: "",
-    detail: "sseondal@gmail.com",
-    color: "#d14836",
   },
 ];
 
