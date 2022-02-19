@@ -1,8 +1,9 @@
 import react from "react";
+import { useState } from "react";
 import "./v4.css";
 import styled from "styled-components";
 
-const Wrapper = styled.a`
+const Wrapper = styled.div`
   margin: 10px;
   display: flex;
   gap: 5%;
@@ -34,11 +35,13 @@ const Wrapper = styled.a`
 const Card = ({ contents }) => {
   const { link, icon, name, detail } = contents;
   return (
-    <Wrapper href={link}>
-      <img className="icon" src={icon}></img>
-      <div className="name">{name}</div>
-      <div className="explain">{detail}</div>
-    </Wrapper>
+    <a href={link} style={{ textDecorationLine: "none" }}>
+      <Wrapper>
+        <img className="icon" src={icon}></img>
+        <div className="name">{name}</div>
+        <div className="explain">{detail}</div>
+      </Wrapper>
+    </a>
   );
 };
 
