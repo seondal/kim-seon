@@ -1,7 +1,7 @@
-import V3 from "./version3/v3";
+import Version from "./version4/v4";
 
 const App = () => {
-  return <V3 />;
+  return <Version />;
 };
 
 export default App;
