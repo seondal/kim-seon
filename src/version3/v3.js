@@ -4,7 +4,7 @@ import notion from "./assets_v3/notion.png";
 import insta from "./assets_v3/instagram.png";
 import velog from "./assets_v3/velog.png";
 import tistory from "./assets_v3/tistory.png";
-import profile from "./assets_v3/시무룩닭.jpg";
+import profile from "./assets_v3/걸어가는아차모.gif";
 import gmail from "./assets_v3/gmail.png";
 
 const Wrapper = styled.div`
@@ -55,12 +55,9 @@ const Profile = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90px;
-  height: 90px;
-  margin-bottom: 70px;
   color: black;
   img {
-    width: 100%;
+    width: 50%;
     border-radius: 50%;
   }
 `;
@@ -103,23 +100,23 @@ const v3 = () => {
       </Profile>
       <Card className="velog" href="https://velog.io/@seondal">
         <img className="icon" src={velog}></img>
-        <div className="name">Velog</div>
-        <div className="explain">공부기록 개발블로그</div>
+        <div className="name">Seondal.log</div>
+        <div className="explain">개발블로그</div>
       </Card>
       <Card className="tistory" href="https://whkakrkr.tistory.com">
         <img className="icon" src={tistory}></img>
-        <div className="name">Tistory</div>
-        <div className="explain">알고리즘 문풀기록장</div>
+        <div className="name">Seondalgorithm</div>
+        <div className="explain">문제풀이</div>
       </Card>
 
       <div className="smaller">
         <Card
           className="notion"
           style={{ width: "130px", gap: "5%" }}
-          href="https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=fc4e5ae6e85a44b1988817215a63a854"
+          href="https://suave-lilac-075.notion.site/Dalchive-ec0bc59746804968a085c2cf46151c80"
         >
           <img className="icon" src={notion}></img>
-          <div className="name"> Projects</div>
+          <div className="name"> Dalchive</div>
         </Card>
 
         <Card
@@ -132,7 +129,12 @@ const v3 = () => {
         <Card
           className="gmail"
           style={{ width: "55px" }}
-          onClick={() => alert("sseondal@gmail.com")}
+          onClick={() => {
+            var result = window.confirm("sseondal@gmail.com로 메일을 보내기");
+            if (result) {
+              window.open("mailto:sseondal@gmail.com");
+            }
+          }}
         >
           <img className="icon" src={gmail}></img>
         </Card>
