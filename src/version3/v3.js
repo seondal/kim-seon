@@ -130,7 +130,7 @@ const v3 = () => {
           className="gmail"
           style={{ width: "55px" }}
           onClick={() => {
-            var result = window.confirm("sseondal@gmail.com로 메일을 보내기");
+            var result = window.confirm("sseondal@gmail.com로 메일보내기");
             if (result) {
               window.open("mailto:sseondal@gmail.com");
             }
