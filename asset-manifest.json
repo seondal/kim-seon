@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kimseon/static/css/main.da943019.chunk.css",
-    "main.js": "/kimseon/static/js/main.22a69a26.chunk.js",
-    "main.js.map": "/kimseon/static/js/main.22a69a26.chunk.js.map",
+    "main.js": "/kimseon/static/js/main.e406b800.chunk.js",
+    "main.js.map": "/kimseon/static/js/main.e406b800.chunk.js.map",
     "runtime-main.js": "/kimseon/static/js/runtime-main.875fd92c.js",
     "runtime-main.js.map": "/kimseon/static/js/runtime-main.875fd92c.js.map",
     "static/js/2.cd53c0f0.chunk.js": "/kimseon/static/js/2.cd53c0f0.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.875fd92c.js",
     "static/js/2.cd53c0f0.chunk.js",
     "static/css/main.da943019.chunk.css",
-    "static/js/main.22a69a26.chunk.js"
+    "static/js/main.e406b800.chunk.js"
   ]
 }
