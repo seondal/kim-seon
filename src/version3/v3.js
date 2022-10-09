@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30%;
+  padding-top: 40px;
   color: var(--font);
 
   .smaller {
@@ -57,7 +57,7 @@ const Profile = styled.div`
   align-items: center;
   color: black;
   img {
-    width: 50%;
+    width: 45%;
     border-radius: 50%;
   }
 `;
