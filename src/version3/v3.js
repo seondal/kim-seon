@@ -6,12 +6,13 @@ import velog from "./assets_v3/velog.png";
 import tistory from "./assets_v3/tistory.png";
 import profile from "./assets_v3/걸어가는아차모.gif";
 import gmail from "./assets_v3/gmail.png";
+import github from "./assets_v3/github.png";
 
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 20px;
   color: var(--font);
 
   .smaller {
@@ -39,6 +40,11 @@ const Wrapper = styled.div`
       background-color: black;
     }
   }
+  .github {
+    :hover {
+      background-color: #892fa3;
+    }
+  }
   .insta {
     :hover {
       background-color: #e4405f;
@@ -57,7 +63,7 @@ const Profile = styled.div`
   align-items: center;
   color: black;
   img {
-    width: 45%;
+    width: 40%;
     border-radius: 50%;
   }
 `;
@@ -108,15 +114,19 @@ const v3 = () => {
         <div className="name">Seondalgorithm</div>
         <div className="explain">문제풀이</div>
       </Card>
+      <Card
+        className="notion"
+        href="https://suave-lilac-075.notion.site/Dalchive-ec0bc59746804968a085c2cf46151c80"
+      >
+        <img className="icon" src={notion}></img>
+        <div className="name">Dalchive</div>
+        <div className="explain">공부기록장 & TIL</div>
+      </Card>
 
       <div className="smaller">
-        <Card
-          className="notion"
-          style={{ width: "130px", gap: "5%" }}
-          href="https://suave-lilac-075.notion.site/Dalchive-ec0bc59746804968a085c2cf46151c80"
-        >
-          <img className="icon" src={notion}></img>
-          <div className="name"> Dalchive</div>
+        <Card className="github" style={{ width: "130px", gap: "5%" }}>
+          <img className="icon" src={github}></img>
+          <div className="name"> Projects</div>
         </Card>
 
         <Card
