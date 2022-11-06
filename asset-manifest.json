@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kimseon/static/css/main.da943019.chunk.css",
-    "main.js": "/kimseon/static/js/main.e406b800.chunk.js",
-    "main.js.map": "/kimseon/static/js/main.e406b800.chunk.js.map",
+    "main.js": "/kimseon/static/js/main.0d1d3b08.chunk.js",
+    "main.js.map": "/kimseon/static/js/main.0d1d3b08.chunk.js.map",
     "runtime-main.js": "/kimseon/static/js/runtime-main.875fd92c.js",
     "runtime-main.js.map": "/kimseon/static/js/runtime-main.875fd92c.js.map",
-    "static/js/2.cd53c0f0.chunk.js": "/kimseon/static/js/2.cd53c0f0.chunk.js",
-    "static/js/2.cd53c0f0.chunk.js.map": "/kimseon/static/js/2.cd53c0f0.chunk.js.map",
+    "static/js/2.baa39b00.chunk.js": "/kimseon/static/js/2.baa39b00.chunk.js",
+    "static/js/2.baa39b00.chunk.js.map": "/kimseon/static/js/2.baa39b00.chunk.js.map",
     "index.html": "/kimseon/index.html",
     "static/css/main.da943019.chunk.css.map": "/kimseon/static/css/main.da943019.chunk.css.map",
-    "static/js/2.cd53c0f0.chunk.js.LICENSE.txt": "/kimseon/static/js/2.cd53c0f0.chunk.js.LICENSE.txt",
+    "static/js/2.baa39b00.chunk.js.LICENSE.txt": "/kimseon/static/js/2.baa39b00.chunk.js.LICENSE.txt",
     "static/media/gmail.d7d3271b.png": "/kimseon/static/media/gmail.d7d3271b.png",
     "static/media/instagram.a657188e.png": "/kimseon/static/media/instagram.a657188e.png",
     "static/media/tistory.68a9d957.png": "/kimseon/static/media/tistory.68a9d957.png",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.875fd92c.js",
-    "static/js/2.cd53c0f0.chunk.js",
+    "static/js/2.baa39b00.chunk.js",
     "static/css/main.da943019.chunk.css",
-    "static/js/main.e406b800.chunk.js"
+    "static/js/main.0d1d3b08.chunk.js"
   ]
 }
