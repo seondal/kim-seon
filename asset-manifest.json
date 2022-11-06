@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/kimseon/static/css/main.da943019.chunk.css",
-    "main.js": "/kimseon/static/js/main.89e32438.chunk.js",
-    "main.js.map": "/kimseon/static/js/main.89e32438.chunk.js.map",
-    "runtime-main.js": "/kimseon/static/js/runtime-main.875fd92c.js",
-    "runtime-main.js.map": "/kimseon/static/js/runtime-main.875fd92c.js.map",
-    "static/js/2.baa39b00.chunk.js": "/kimseon/static/js/2.baa39b00.chunk.js",
-    "static/js/2.baa39b00.chunk.js.map": "/kimseon/static/js/2.baa39b00.chunk.js.map",
-    "index.html": "/kimseon/index.html",
-    "static/css/main.da943019.chunk.css.map": "/kimseon/static/css/main.da943019.chunk.css.map",
-    "static/js/2.baa39b00.chunk.js.LICENSE.txt": "/kimseon/static/js/2.baa39b00.chunk.js.LICENSE.txt",
-    "static/media/gmail.d7d3271b.png": "/kimseon/static/media/gmail.d7d3271b.png",
-    "static/media/instagram.a657188e.png": "/kimseon/static/media/instagram.a657188e.png",
-    "static/media/tistory.68a9d957.png": "/kimseon/static/media/tistory.68a9d957.png",
-    "static/media/velog.c416704f.png": "/kimseon/static/media/velog.c416704f.png",
-    "static/media/걸어가는아차모.55dc0bf2.gif": "/kimseon/static/media/걸어가는아차모.55dc0bf2.gif"
+    "main.css": "/links/static/css/main.da943019.chunk.css",
+    "main.js": "/links/static/js/main.89e32438.chunk.js",
+    "main.js.map": "/links/static/js/main.89e32438.chunk.js.map",
+    "runtime-main.js": "/links/static/js/runtime-main.e18b13d2.js",
+    "runtime-main.js.map": "/links/static/js/runtime-main.e18b13d2.js.map",
+    "static/js/2.40ded69d.chunk.js": "/links/static/js/2.40ded69d.chunk.js",
+    "static/js/2.40ded69d.chunk.js.map": "/links/static/js/2.40ded69d.chunk.js.map",
+    "index.html": "/links/index.html",
+    "static/css/main.da943019.chunk.css.map": "/links/static/css/main.da943019.chunk.css.map",
+    "static/js/2.40ded69d.chunk.js.LICENSE.txt": "/links/static/js/2.40ded69d.chunk.js.LICENSE.txt",
+    "static/media/gmail.d7d3271b.png": "/links/static/media/gmail.d7d3271b.png",
+    "static/media/instagram.a657188e.png": "/links/static/media/instagram.a657188e.png",
+    "static/media/tistory.68a9d957.png": "/links/static/media/tistory.68a9d957.png",
+    "static/media/velog.c416704f.png": "/links/static/media/velog.c416704f.png",
+    "static/media/걸어가는아차모.55dc0bf2.gif": "/links/static/media/걸어가는아차모.55dc0bf2.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.875fd92c.js",
-    "static/js/2.baa39b00.chunk.js",
+    "static/js/runtime-main.e18b13d2.js",
+    "static/js/2.40ded69d.chunk.js",
     "static/css/main.da943019.chunk.css",
     "static/js/main.89e32438.chunk.js"
   ]
