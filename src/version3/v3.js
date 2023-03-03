@@ -127,10 +127,9 @@ const v3 = () => {
         <Card
           className="github"
           style={{ width: "130px", gap: "5%" }}
-          href="https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=c62e2af146ed446a97b34c86c16d4835"
-        >
+          href="https://github.com/seondal">
           <img className="icon" src={github}></img>
-          <div className="name"> Projects</div>
+          <div className="name"> Github </div>
         </Card>
 
         <Card
