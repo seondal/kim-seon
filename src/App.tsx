@@ -15,6 +15,7 @@ const Wrapper = styled.div`
 `;
 
 const Container = styled.div`
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
