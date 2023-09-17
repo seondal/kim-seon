@@ -4,11 +4,12 @@ import { DataI } from "../interface";
 
 interface Card {
   props: DataI;
+  size?: "s" | "m" | "l";
+  flex?: number;
 }
 
-export default function Card({ props }: Card) {
+export default function Card({ props, size = "l", flex = 1 }: Card) {
   const { name, icon, link, explain, color } = props;
-
   function onClick() {
     if (name === "Mail") {
       let result = window.confirm("sseondal@gmail.com로 메일보내기");
@@ -20,17 +21,22 @@ export default function Card({ props }: Card) {
     window.open(link);
   }
   return (
-    <Wrapper className="velog" onClick={onClick} color={color}>
+    <Wrapper
+      className="velog"
+      onClick={onClick}
+      color={color}
+      flex={size === "s" ? 0 : flex}>
       <img className="icon" src={icon} alt={icon}></img>
-      <div className="name">{name}</div>
-      <div className="explain">{explain}</div>
+      {size !== "s" && <div className="name">{name}</div>}
+      {size === "l" && <div className="explain">{explain}</div>}
     </Wrapper>
   );
 }
 
-const Wrapper = styled.div<{ color: string }>`
+const Wrapper = styled.div<{ color: string; flex: number }>`
   display: flex;
   padding: 0.8rem 1rem;
+  flex-grow: ${(props) => props.flex};
   gap: 0.5rem;
   flex-direction: row;
   justify-content: center;

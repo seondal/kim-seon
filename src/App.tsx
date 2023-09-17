@@ -9,7 +9,6 @@ const Wrapper = styled.div`
   padding: 20px;
   width: 400px;
   box-sizing: border-box;
-  border: 1px solid grey;
 
   img {
     width: 100%;
@@ -27,9 +26,14 @@ const App = () => {
     <Wrapper>
       <Profile />
       <Container>
-        {DATA.map((props) => (
-          <Card props={props} key={props.name} />
-        ))}
+        <Card props={DATA.velog} />
+        <Card props={DATA.tistory} />
+        <Card props={DATA.notion} />
+        <Card props={DATA.insta} size="s" />
+        <Card props={DATA.github} size="s" />
+        <Card props={DATA.gmail} size="s" />
+        <Card props={DATA.toss} size="m" />
+
         <a href="https://velog-readme-stats.vercel.app/api/redirect?name=seondal">
           <img
             src="https://velog-readme-stats.vercel.app/api?name=seondal"
