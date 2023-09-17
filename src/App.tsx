@@ -6,14 +6,20 @@ import React from "react";
 import Profile from "./components/Profile";
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+
+  img {
+    width: 100%;
+  }
 `;
 
 const Container = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 `;
 
 const App = () => {
@@ -21,28 +27,22 @@ const App = () => {
     <Wrapper>
       <Profile />
       <Container>
-        {DATA.map(({ link, icon, name, explain }) => (
-          <Card link={link} icon={icon} name={name} explain={explain} />
+        {DATA.map((props) => (
+          <Card props={props} key={props.name} />
         ))}
+        <a href="https://velog-readme-stats.vercel.app/api/redirect?name=seondal">
+          <img
+            src="https://velog-readme-stats.vercel.app/api?name=seondal"
+            alt=""
+          />
+        </a>
+        <a href="https://solved.ac/whkakrkr">
+          <img
+            src="http://mazassumnida.wtf/api/v2/generate_badge?boj=whkakrkr"
+            alt=""
+          />
+        </a>
       </Container>
-      {/* <Card
-          className="gmail"
-          style={{ width: "55px" }}
-          onClick={() => {
-            var result = window.confirm("sseondal@gmail.com로 메일보내기");
-            if (result) {
-              window.open("mailto:sseondal@gmail.com");
-            }
-          }}>
-          <img className="icon" src={gmail}></img>
-        </Card> */}
-
-      <a href="https://velog-readme-stats.vercel.app/api/redirect?name=seondal">
-        <img src="https://velog-readme-stats.vercel.app/api?name=seondal" />
-      </a>
-      <a href="https://solved.ac/whkakrkr">
-        <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=whkakrkr" />
-      </a>
     </Wrapper>
   );
 };

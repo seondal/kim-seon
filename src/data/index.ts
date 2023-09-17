@@ -1,6 +1,7 @@
 import { ASSETS } from "../assets";
+import { DataI } from "../interface";
 
-export const DATA = [
+export const DATA: DataI[] = [
   {
     icon: ASSETS.velog,
     name: "Seondal.log",
@@ -20,7 +21,7 @@ export const DATA = [
     name: "Dalchive",
     explain: "공부기록 & TIL",
     link: "https://suave-lilac-075.notion.site/Dalchive-ec0bc59746804968a085c2cf46151c80",
-    color: "#black",
+    color: "#000000",
   },
   {
     icon: ASSETS.insta,

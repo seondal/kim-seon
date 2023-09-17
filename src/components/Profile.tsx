@@ -2,12 +2,11 @@ import { styled } from "styled-components";
 import { ASSETS } from "../assets";
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   color: black;
+  width: 100px;
+  margin: auto;
+  text-align: center;
   img {
-    width: 40%;
     border-radius: 50%;
   }
 `;
@@ -15,7 +14,7 @@ const Wrapper = styled.div`
 export default function Profile() {
   return (
     <Wrapper>
-      <img src={ASSETS.profile}></img>
+      <img src={ASSETS.profile} alt="🐤" />
       <h3>Seondal</h3>
     </Wrapper>
   );

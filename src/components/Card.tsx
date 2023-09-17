@@ -1,30 +1,44 @@
 import React from "react";
 import { styled } from "styled-components";
-import { CardI } from "../interface";
+import { DataI } from "../interface";
 
-export default function Card({ link, icon, name, explain }: CardI) {
+interface Card {
+  props: DataI;
+}
+
+export default function Card({ props }: Card) {
+  const { name, icon, link, explain, color } = props;
+
+  function onClick() {
+    if (name === "Mail") {
+      let result = window.confirm("sseondal@gmail.com로 메일보내기");
+      if (result) {
+        window.open("mailto:sseondal@gmail.com");
+      }
+      return;
+    }
+    window.open(link);
+  }
   return (
-    <Wrapper className="velog" href={link}>
-      <img className="icon" src={icon}></img>
+    <Wrapper className="velog" onClick={onClick} color={color}>
+      <img className="icon" src={icon} alt={icon}></img>
       <div className="name">{name}</div>
       <div className="explain">{explain}</div>
     </Wrapper>
   );
 }
 
-const Wrapper = styled.a`
-  margin: 10px;
+const Wrapper = styled.div<{ color: string }>`
   display: flex;
-  gap: 5%;
+  padding: 0.8rem 1rem;
+  gap: 0.5rem;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: var(--card);
-  width: 280px;
-  height: 55px;
   border-radius: 10px;
   color: white;
-  text-decoration: none;
+  cursor: pointer;
 
   .icon {
     width: 30px;
@@ -38,5 +52,9 @@ const Wrapper = styled.a`
     display: flex;
     flex-direction: column;
     font-size: 15px;
+  }
+
+  &:hover {
+    background-color: ${(props) => props.color};
   }
 `;
