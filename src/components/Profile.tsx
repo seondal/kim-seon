@@ -3,10 +3,9 @@ import { ASSETS } from "../assets";
 
 const Wrapper = styled.div`
   color: black;
-  width: 100px;
-  margin: auto;
   text-align: center;
   img {
+    width: 100px;
     border-radius: 50%;
   }
 `;

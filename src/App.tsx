@@ -6,19 +6,21 @@ import React from "react";
 import Profile from "./components/Profile";
 
 const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 400px;
   padding: 20px;
-  width: 400px;
   box-sizing: border-box;
-
-  img {
-    width: 100%;
-  }
 `;
 
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  .image {
+    width: 100%;
+  }
 `;
 
 const App = () => {
@@ -33,15 +35,16 @@ const App = () => {
         <Card props={DATA.github} size="s" />
         <Card props={DATA.gmail} size="s" />
         <Card props={DATA.toss} size="m" />
-
         <a href="https://velog-readme-stats.vercel.app/api/redirect?name=seondal">
           <img
+            className="image"
             src="https://velog-readme-stats.vercel.app/api?name=seondal"
             alt=""
           />
         </a>
         <a href="https://solved.ac/whkakrkr">
           <img
+            className="image"
             src="http://mazassumnida.wtf/api/v2/generate_badge?boj=whkakrkr"
             alt=""
           />
