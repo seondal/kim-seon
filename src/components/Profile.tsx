@@ -4,9 +4,12 @@ import { ASSETS } from "../assets";
 const Wrapper = styled.div`
   color: black;
   text-align: center;
+
   img {
     width: 100px;
-    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20%;
   }
 `;
 
