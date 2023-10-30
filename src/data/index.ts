@@ -47,6 +47,12 @@ export const DATA: Data = {
     link: "https://github.com/seondal",
     color: "#892fa3",
   },
+  projects: {
+    name: "Projects",
+    explain: "ReadMe",
+    link: "https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=c62e2af146ed446a97b34c86c16d4835",
+    color: "#892fa3",
+  },
   toss: {
     icon: ASSETS.toss,
     name: "Toss",

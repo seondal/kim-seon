@@ -26,7 +26,7 @@ export default function Card({ props, size = "l", flex = 1 }: CardI) {
       onClick={onClick}
       color={color}
       fflex={size === "s" ? 0 : flex}>
-      <img className="icon" src={icon} alt={icon}></img>
+      {icon && <img className="icon" src={icon} alt={icon}></img>}
       {size !== "s" && <div className="name">{name}</div>}
       {size === "l" && <div className="explain">{explain}</div>}
     </Wrapper>

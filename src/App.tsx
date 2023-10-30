@@ -18,6 +18,7 @@ const Container = styled.div`
   margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
   .image {
     width: 100%;
@@ -33,16 +34,17 @@ const App = () => {
         <Card props={DATA.tistory} />
         <Card props={DATA.notion} />
         <Card props={DATA.insta} size="s" />
-        <Card props={DATA.github} size="s" />
         <Card props={DATA.gmail} size="s" />
-        <Card props={DATA.toss} size="m" />
-        <a href="https://velog-readme-stats.vercel.app/api/redirect?name=seondal">
+        <Card props={DATA.toss} size="s" />
+        <Card props={DATA.projects} size="m" />
+        <Card props={DATA.github} size="s" />
+        {/* <a href="https://velog-readme-stats.vercel.app/api/redirect?name=seondal">
           <img
             className="image"
             src="https://velog-readme-stats.vercel.app/api?name=seondal"
             alt=""
           />
-        </a>
+        </a> */}
         <a href="https://solved.ac/whkakrkr">
           <img
             className="image"
