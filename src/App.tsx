@@ -34,9 +34,9 @@ const App = () => {
         <Card props={DATA.tistory} />
         <Card props={DATA.notion} />
         <Card props={DATA.toss} size="s" />
-        <Card props={DATA.github} size="s" />
         <Card props={DATA.insta} size="s" />
         <Card props={DATA.twitter} size="s" />
+        <Card props={DATA.github} size="s" />
         <Card props={DATA.gmail} size="m" />
         <Velog />
         <Solved />
