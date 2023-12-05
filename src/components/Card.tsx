@@ -5,12 +5,13 @@ import { DataI } from "../interface";
 interface CardI {
   props: DataI;
   size?: "s" | "m" | "l";
+  isMail?: boolean;
 }
 
-export default function Card({ props, size = "l" }: CardI) {
+export default function Card({ props, size = "l", isMail = false }: CardI) {
   const { name, icon, link, explain, color } = props;
   function onClick() {
-    if (name === "Mail") {
+    if (isMail) {
       let result = window.confirm("sseondal@gmail.com로 메일보내기");
       if (result) {
         window.open("mailto:sseondal@gmail.com");
@@ -34,10 +35,10 @@ export default function Card({ props, size = "l" }: CardI) {
 
 const Wrapper = styled.div<{ color: string; fflex: number }>`
   display: flex;
-  padding: 0.8rem 1rem;
-  flex-grow: ${(props) => props.fflex};
-  flex-direction: row;
+  gap: 1rem;
   justify-content: center;
+  padding: 0.8rem;
+  flex-grow: ${(props) => props.fflex};
   align-items: center;
   background-color: var(--card);
   border-radius: 10px;

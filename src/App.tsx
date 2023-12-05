@@ -1,4 +1,5 @@
 import "./App.css";
+
 import styled from "styled-components";
 import { DATA } from "./data";
 import Card from "./components/Card";
@@ -22,9 +23,8 @@ const Container = styled.div`
   max-width: 440px;
   gap: 0.5rem;
 
-  div {
+  .row {
     display: flex;
-    justify-content: space-between;
     gap: 0.5rem;
   }
 
@@ -38,18 +38,17 @@ const App = () => {
     <Wrapper>
       <Profile />
       <Container>
-        <div>
-          <Card props={DATA.tistory} />
-        </div>
-        <div>
+        <Card props={DATA.tistory} />
+        <Card props={DATA.velog} />
+        <div className="row">
           <Card props={DATA.notion} />
           <Card props={DATA.toss} size="s" />
         </div>
-        <div>
+        <div className="row">
           <Card props={DATA.insta} size="s" />
           <Card props={DATA.twitter} size="s" />
           <Card props={DATA.github} size="s" />
-          <Card props={DATA.gmail} size="m" />
+          <Card props={DATA.gmail} size="m" isMail={true} />
         </div>
         <Velog />
         <Solved />
