@@ -5,10 +5,9 @@ import { DataI } from "../interface";
 interface CardI {
   props: DataI;
   size?: "s" | "m" | "l";
-  flex?: number;
 }
 
-export default function Card({ props, size = "l", flex = 1 }: CardI) {
+export default function Card({ props, size = "l" }: CardI) {
   const { name, icon, link, explain, color } = props;
   function onClick() {
     if (name === "Mail") {
@@ -25,7 +24,7 @@ export default function Card({ props, size = "l", flex = 1 }: CardI) {
       className="velog"
       onClick={onClick}
       color={color}
-      fflex={size === "s" ? 0 : flex}>
+      fflex={size === "s" ? 0 : 1}>
       {icon && <img className="icon" src={icon} alt={icon}></img>}
       {size !== "s" && <div className="name">{name}</div>}
       {size === "l" && <div className="explain">{explain}</div>}
@@ -37,7 +36,6 @@ const Wrapper = styled.div<{ color: string; fflex: number }>`
   display: flex;
   padding: 0.8rem 1rem;
   flex-grow: ${(props) => props.fflex};
-  gap: 0.5rem;
   flex-direction: row;
   justify-content: center;
   align-items: center;
