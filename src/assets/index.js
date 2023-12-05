@@ -6,6 +6,7 @@ import profile from "./morpeco.png";
 import gmail from "./gmail.png";
 import github from "./github.png";
 import toss from "./toss.png";
+import twitter from "./twitter.png";
 
 export const ASSETS = {
   notion,
@@ -16,4 +17,5 @@ export const ASSETS = {
   gmail,
   github,
   toss,
+  twitter,
 };

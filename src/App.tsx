@@ -4,6 +4,8 @@ import { DATA } from "./data";
 import Card from "./components/Card";
 import React from "react";
 import Profile from "./components/Profile";
+import Velog from "./components/Velog";
+import Solved from "./components/Solved";
 
 const Wrapper = styled.div`
   display: flex;
@@ -29,28 +31,15 @@ const App = () => {
     <Wrapper>
       <Profile />
       <Container>
-        <Card props={DATA.velog} />
         <Card props={DATA.tistory} />
         <Card props={DATA.notion} />
-        <Card props={DATA.insta} size="s" />
-        <Card props={DATA.gmail} size="s" />
+        <Card props={DATA.toss} size="s" />
         <Card props={DATA.github} size="s" />
-        <Card props={DATA.toss} size="m" />
-        {/* <Card props={DATA.projects} size="m" /> */}
-        <a href="https://velog-readme-stats.vercel.app/api/redirect?name=seondal">
-          <img
-            className="image"
-            src="https://velog-readme-stats.vercel.app/api?name=seondal"
-            alt=""
-          />
-        </a>
-        <a href="https://solved.ac/whkakrkr">
-          <img
-            className="image"
-            src="http://mazassumnida.wtf/api/v2/generate_badge?boj=whkakrkr"
-            alt=""
-          />
-        </a>
+        <Card props={DATA.insta} size="s" />
+        <Card props={DATA.twitter} size="s" />
+        <Card props={DATA.gmail} size="m" />
+        <Velog />
+        <Solved />
       </Container>
     </Wrapper>
   );

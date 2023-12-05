@@ -26,6 +26,13 @@ export const DATA: Data = {
     link: "https://suave-lilac-075.notion.site/Dalchive-ec0bc59746804968a085c2cf46151c80",
     color: "#000000",
   },
+  twitter: {
+    icon: ASSETS.twitter,
+    name: "Twitter",
+    explain: "@sseondal",
+    link: "https://twitter.com/sseondal",
+    color: "#1D9BF0",
+  },
   insta: {
     icon: ASSETS.insta,
     name: "Instagram",
@@ -35,7 +42,7 @@ export const DATA: Data = {
   },
   gmail: {
     icon: ASSETS.gmail,
-    name: "Mail",
+    name: "Gmail",
     explain: "sseondal@gmail.com",
     link: "mailto:sseondal@gmail.com",
     color: "#d14836",
