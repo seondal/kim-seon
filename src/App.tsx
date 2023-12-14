@@ -49,12 +49,12 @@ const App = () => {
           </div>
           <div className="row">
             <Card props={DATA.github} size="l" />
-            <Card props={DATA.projects} size="m" />
+            <Card props={DATA.projects} size="s" />
           </div>
           <div className="row">
             <Card props={DATA.insta} size="s" />
             <Card props={DATA.twitter} size="s" />
-            <Card props={DATA.toss} size="m" />
+            <Card props={DATA.toss} size="s" />
             <Card props={DATA.gmail} size="m" isMail={true} />
           </div>
           <Velog />
