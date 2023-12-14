@@ -6,10 +6,10 @@ const Wrapper = styled.div`
   text-align: center;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 6rem;
+    height: 6rem;
     object-fit: cover;
-    border-radius: 20%;
+    border-radius: 40%;
   }
 `;
 
