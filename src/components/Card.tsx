@@ -27,8 +27,8 @@ export default function Card({ props, size = "l", isMail = false }: CardI) {
       color={color}
       fflex={size === "s" ? 0 : 1}>
       {icon && <img className="icon" src={icon} alt={icon}></img>}
-      {size !== "s" && <div className="name">{name}</div>}
-      {size === "l" && <div className="explain">{explain}</div>}
+      {size === "l" && <div className="name">{name}</div>}
+      {size !== "s" && <div className="explain">{explain}</div>}
     </Wrapper>
   );
 }

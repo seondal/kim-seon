@@ -1,5 +1,6 @@
 import "./App.css";
 
+import { Analytics } from "@vercel/analytics/react";
 import styled from "styled-components";
 import { DATA } from "./data";
 import Card from "./components/Card";
@@ -35,25 +36,32 @@ const Container = styled.div`
 
 const App = () => {
   return (
-    <Wrapper>
-      <Profile />
-      <Container>
-        <Card props={DATA.tistory} />
-        <Card props={DATA.velog} />
-        <div className="row">
-          <Card props={DATA.notion} />
-          <Card props={DATA.toss} size="s" />
-        </div>
-        <div className="row">
-          <Card props={DATA.insta} size="s" />
-          <Card props={DATA.twitter} size="s" />
-          <Card props={DATA.github} size="s" />
-          <Card props={DATA.gmail} size="m" isMail={true} />
-        </div>
-        <Velog />
-        <Solved />
-      </Container>
-    </Wrapper>
+    <>
+      <Analytics />
+      <Wrapper>
+        <Profile />
+        <Container>
+          <div className="row">
+            <Card props={DATA.tistory} />
+          </div>
+          <div className="row">
+            <Card props={DATA.velog} />
+          </div>
+          <div className="row">
+            <Card props={DATA.github} size="l" />
+            <Card props={DATA.projects} size="m" />
+          </div>
+          <div className="row">
+            <Card props={DATA.insta} size="s" />
+            <Card props={DATA.twitter} size="s" />
+            <Card props={DATA.toss} size="m" />
+            <Card props={DATA.gmail} size="m" isMail={true} />
+          </div>
+          <Velog />
+          <Solved />
+        </Container>
+      </Wrapper>
+    </>
   );
 };
 
