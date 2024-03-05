@@ -27,6 +27,7 @@ const Container = styled.div`
   .row {
     display: flex;
     gap: 0.5rem;
+    justify-content: center;
   }
 
   .image {
@@ -47,8 +48,9 @@ const App = () => {
           <div className="row">
             <Card props={DATA.velog} />
           </div>
-          <div>
+          <div className="row">
             <Card props={DATA.github} size="l" />
+            <Card props={DATA.posepicker} size="s" />
           </div>
           <div className="row">
             <Card props={DATA.insta} size="s" />

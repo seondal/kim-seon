@@ -69,10 +69,17 @@ export const DATA: Data = {
     color: "#0064ff",
   },
   disquiet: {
-    icon: ASSETS.toss,
+    icon: ASSETS.disquiet,
     name: "Disquiet",
     explain: "메이커로그",
     link: "disquiet.io/@sseondal",
     color: "#000000",
+  },
+  posepicker: {
+    icon: ASSETS.posepicker,
+    name: "PosePicker",
+    explain: "포즈피커",
+    link: "https://www.posepicker.site",
+    color: "#5B2EE0",
   },
 };

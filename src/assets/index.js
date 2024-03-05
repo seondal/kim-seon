@@ -7,6 +7,8 @@ import gmail from "./gmail.png";
 import github from "./github.png";
 import toss from "./toss.png";
 import twitter from "./twitter.png";
+import disquiet from "./disquiet.jpeg";
+import posepicker from "./posepicker.png";
 
 export const ASSETS = {
   notion,
@@ -18,4 +20,6 @@ export const ASSETS = {
   github,
   toss,
   twitter,
+  disquiet,
+  posepicker,
 };
