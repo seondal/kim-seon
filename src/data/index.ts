@@ -55,7 +55,7 @@ export const DATA: Data = {
     color: "#892fa3",
   },
   projects: {
-    icon: ASSETS.notion,
+    icon: ASSETS.github,
     name: "Projects",
     explain: "Projects",
     link: "https://suave-lilac-075.notion.site/fd0c2a204d8e4fd7b193800c20d5eda0?v=c62e2af146ed446a97b34c86c16d4835",
@@ -67,5 +67,12 @@ export const DATA: Data = {
     explain: "소식받기",
     link: "https://toss.me/seondal",
     color: "#0064ff",
+  },
+  disquiet: {
+    icon: ASSETS.toss,
+    name: "Disquiet",
+    explain: "메이커로그",
+    link: "disquiet.io/@sseondal",
+    color: "#000000",
   },
 };
