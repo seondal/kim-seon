@@ -52,6 +52,7 @@ const App = () => {
           </div>
           <div className="row">
             <Card props={DATA.github} size="l" />
+            <Card props={DATA.projects} size="s" />
             <Card props={DATA.insta} size="s" />
             <Card props={DATA.twitter} size="s" />
             <Card props={DATA.toss} size="s" />
