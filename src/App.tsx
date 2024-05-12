@@ -1,5 +1,6 @@
 import "./App.css";
 
+import ReactGA from "react-ga";
 import { Analytics } from "@vercel/analytics/react";
 import styled from "styled-components";
 import { DATA } from "./data";
@@ -8,6 +9,7 @@ import React from "react";
 import Profile from "./components/Profile";
 import Velog from "./components/Velog";
 import Solved from "./components/Solved";
+import ENV from "./constants/env";
 
 const Wrapper = styled.div`
   display: flex;
@@ -34,6 +36,9 @@ const Container = styled.div`
     width: 100%;
   }
 `;
+
+ReactGA.initialize(ENV.ga, { debug: true }); // react-ga 초기화 및 debug 사용
+ReactGA.pageview(window.location.pathname); // 추적하려는 page 설정
 
 const App = () => {
   return (
