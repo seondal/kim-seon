@@ -72,7 +72,7 @@ export const DATA: Data = {
     icon: ASSETS.disquiet,
     name: "Disquiet",
     explain: "메이커로그",
-    link: "disquiet.io/@sseondal",
+    link: "https://disquiet.io/@sseondal",
     color: "#000000",
   },
   posepicker: {
@@ -81,5 +81,12 @@ export const DATA: Data = {
     explain: "포즈피커",
     link: "https://www.posepicker.site",
     color: "#5B2EE0",
+  },
+  littly: {
+    // icon: ASSETS.littly,
+    name: "Projects",
+    explain: "프로젝트",
+    link: "https://litt.ly/seondal",
+    color: "#F5BF1A",
   },
 };
