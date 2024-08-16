@@ -9,7 +9,7 @@ export const DATA: Data = {
     icon: ASSETS.velog,
     name: "Seondal.log",
     explain: "개발블로그",
-    link: "https://velog.io/@seondal/about",
+    link: "https://velog.io/@seondal/series",
     color: "#1ec592",
   },
   tistory: {

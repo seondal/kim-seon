@@ -71,8 +71,8 @@ const App = () => {
             <Card props={DATA.gmail} size="s" isMail={true} />
             <Card props={DATA.posepicker} size="s" />
           </div> */}
-          <Velog />
           <Solved />
+          {/* <Velog /> */}
         </Container>
       </Wrapper>
     </>
