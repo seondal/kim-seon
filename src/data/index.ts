@@ -7,7 +7,7 @@ interface Data {
 export const DATA: Data = {
   velog: {
     icon: ASSETS.velog,
-    name: "Seondal.log",
+    name: "seondal.log",
     explain: "개발블로그",
     link: "https://velog.io/@seondal/series",
     color: "#1ec592",

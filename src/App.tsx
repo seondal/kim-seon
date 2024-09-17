@@ -54,14 +54,14 @@ const App = () => {
             <Card props={DATA.velog} />
           </div>
           <div className="row">
-            <Card props={DATA.github} size="m" />
+            <Card props={DATA.github} size="s" />
             <Card props={DATA.littly} size="m" />
+            <Card props={DATA.disquiet} size="s" />
             <Card props={DATA.posepicker} size="s" />
           </div>
           <div className="row">
             <Card props={DATA.insta} size="s" />
             <Card props={DATA.twitter} size="s" />
-            <Card props={DATA.disquiet} size="s" />
             <Card props={DATA.gmail} size="m" isMail={true} />
             <Card props={DATA.coffee} size="s" />
           </div>
