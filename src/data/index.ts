@@ -94,6 +94,6 @@ export const DATA: Data = {
     name: "Projects",
     explain: "프로젝트",
     link: "https://litt.ly/seondal",
-    color: "#DDF1E1",
+    color: "#000000",
   },
 };
