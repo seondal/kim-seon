@@ -82,11 +82,18 @@ export const DATA: Data = {
     link: "https://www.posepicker.site",
     color: "#5B2EE0",
   },
+  coffee: {
+    icon: ASSETS.coffee,
+    name: "Buy Me a Coffee",
+    explain: "Buy Me a Coffee",
+    link: "https://buymeacoffee.com/seondal",
+    color: "#F6D607",
+  },
   littly: {
     // icon: ASSETS.littly,
     name: "Projects",
     explain: "프로젝트",
     link: "https://litt.ly/seondal",
-    color: "#F5BF1A",
+    color: "#DDF1E1",
   },
 };

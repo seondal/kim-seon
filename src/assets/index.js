@@ -10,6 +10,7 @@ import twitter from "./twitter.png";
 import disquiet from "./disquiet.jpeg";
 import posepicker from "./posepicker.png";
 import littly from "./littly.png";
+import coffee from "./coffee.png";
 
 export const ASSETS = {
   notion,
@@ -24,4 +25,5 @@ export const ASSETS = {
   disquiet,
   posepicker,
   littly,
+  coffee,
 };

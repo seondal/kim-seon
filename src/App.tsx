@@ -63,6 +63,7 @@ const App = () => {
             <Card props={DATA.twitter} size="s" />
             <Card props={DATA.disquiet} size="s" />
             <Card props={DATA.gmail} size="m" isMail={true} />
+            <Card props={DATA.coffee} size="s" />
           </div>
           {/* <div className="row">
             <Card props={DATA.littly} size="m" />
