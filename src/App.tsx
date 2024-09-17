@@ -53,25 +53,19 @@ const App = () => {
           <div className="row">
             <Card props={DATA.velog} />
           </div>
+
+          <div className="row">
+            <Card props={DATA.insta} size="s" />
+            <Card props={DATA.twitter} size="s" />
+            <Card props={DATA.disquiet} size="s" />
+            <Card props={DATA.gmail} size="m" isMail={true} />
+          </div>
           <div className="row">
             <Card props={DATA.github} size="s" />
             <Card props={DATA.littly} size="m" />
-            <Card props={DATA.disquiet} size="s" />
-            <Card props={DATA.posepicker} size="s" />
-          </div>
-          <div className="row">
-            <Card props={DATA.insta} size="s" />
-            <Card props={DATA.twitter} size="s" />
-            <Card props={DATA.gmail} size="m" isMail={true} />
             <Card props={DATA.coffee} size="s" />
-          </div>
-          {/* <div className="row">
-            <Card props={DATA.littly} size="m" />
-            <Card props={DATA.twitter} size="s" />
-            <Card props={DATA.insta} size="s" />
-            <Card props={DATA.gmail} size="s" isMail={true} />
             <Card props={DATA.posepicker} size="s" />
-          </div> */}
+          </div>
           <Solved />
           {/* <Velog /> */}
         </Container>
